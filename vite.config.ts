@@ -19,4 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  base: '/Spoorthi-koppula-portfolio/',  // ← ensure this matches your GitHub repo name
 }));
